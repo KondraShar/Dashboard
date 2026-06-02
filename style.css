@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template: 0.8fr 0.8fr 3fr 3fr / 1.4fr 5fr 1fr;
+}
+
+header {
+    background-color: bisque;
+    grid-area: 1 / 2 / 3 / 4;
+}
+
+.nav {
+    background-color: beige;
+    grid-row: 1 / 5;
+}
+
+main {
+    background-color: rgb(87, 61, 22);
+    grid-row: 3 / 5;
+    grid-column: 2 / 4;
+}
