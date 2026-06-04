@@ -172,6 +172,27 @@ main {
     grid-row: 1 / 2;
 }
 
+.announcements-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 22px;
+    margin-top: 8px;
+    display: grid;
+    grid-auto-rows: 1fr;
+    margin-bottom: 24px;
+}
+
+.announcement-card {
+    border-bottom: 1px solid grey;
+    height: min-content;
+    padding-bottom: 18px;
+}
+
+.announcements-container :last-child {
+    border-bottom: none;
+}
+
+
 .trending {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
