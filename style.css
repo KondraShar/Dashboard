@@ -42,7 +42,6 @@ body {
     height: 100vh;
     display: grid;
     grid-template: auto 1fr / 220px 1fr;
-    height: 100vh;
 }
 
 header {
@@ -180,7 +179,6 @@ search > input {
 
 .basic-nav > div,
 .settings-nav > div {
-    grid-row: 2 / 3;
     display: grid;
     grid-template-columns: auto 2fr;
     gap: 12px;
@@ -216,6 +214,7 @@ search > input {
 main {
     background-color: rgb(226, 232, 239);
     grid-row: 2 / 3;
+    grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 2fr 0.7fr;
     grid-template-rows: 0.8fr auto;
